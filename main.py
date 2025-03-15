@@ -90,7 +90,7 @@ app = FastAPI(title="FilmFinder")
 from fastapi.middleware.cors import CORSMiddleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["filmfinder.web.app"],
+    allow_origins=["https://filmfinder.web.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
