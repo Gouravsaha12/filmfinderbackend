@@ -5,3 +5,4 @@ langchain
 langchain-core
 langchain-groq
 pydantic
+beanie
